@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 app.get("/meet", (req, res) => {
   res.writeHead(301, {
-    Location: `meet.google.com/jgn-fvvh-dfe`
+    Location: `https://meet.google.com/jgn-fvvh-dfe`
   }).end();
 });
 
