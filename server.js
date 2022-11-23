@@ -15,3 +15,5 @@ app.get("/meet", (req, res) => {
     Location: `https://meet.google.com/otj-iqxh-prj`
   }).end();
 });
+
+module.exports = app;
