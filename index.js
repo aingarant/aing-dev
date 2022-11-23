@@ -7,12 +7,12 @@ app.listen(port, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send(`Hello!`);
+  res.send(`Hello.`);
 });
 
 app.get("/meet", (req, res) => {
   res.writeHead(301, {
-    Location: `https://meet.google.com/jgn-fvvh-dfe`
+    Location: `https://meet.google.com/zho-qggt-eqz`
   }).end();
 });
 
