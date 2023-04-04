@@ -4,7 +4,7 @@ const port = 80;
 
 const simpliiUrl = "https://mbsy.co/6s7JD2";
 
-const urls = require("./urls.json");
+const urls = require("./data/urls.json");
 
 app.listen(port, () => {
   console.log(`running on port ${port}`);
